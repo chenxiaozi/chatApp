@@ -1,0 +1,42 @@
+.error-msg {
+    color: red; 
+    text-align: center; 
+    font-size: 18px;
+}
+.am-tab-bar{ 
+    /*使导航始终在底部*/ 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    height: inherit;
+}
+
+.am-card-header-content img{
+    /* 列表头像大小 */
+    width: 50px;
+    height: 50px;
+}
+
+.sticky-header{ 
+    /*使标题始终在顶部*/ 
+    position: fixed; 
+    z-index: 10;
+    top: 0; 
+    width: 100%;
+}
+
+/*消息文本居右*/
+#chat-page .chat-me .am-list-extra { 
+    flex-basis: auto; /*宽度包裹内容*/ 
+}
+
+#chat-page .chat-me .am-list-content { 
+    padding-right: 15px; 
+    text-align: right; 
+}
+
+* {
+    /* 启用单指水平平移手势 */
+    /* 控制表情网格可以左右滑动 */
+    touch-action: pan-x;
+}
